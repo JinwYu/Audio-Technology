@@ -111,7 +111,7 @@ nfft = 512; % Antalet samplingar som används för att beräkna Fouriertransformen.
 figure
 spectrogram(transpose(brumKontroll), window, noverlap, nfft, Fs, 'yaxis')
 
-Snygga till spektrogrammet.
+% Snygga till spektrogrammet.
 colorbar
 ylim([0,20]); % Frekvensintervallet som ska visas i kHz.
 %ylim([0.03,0.08]); % För att studera brum.
